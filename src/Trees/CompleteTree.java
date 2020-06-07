@@ -12,7 +12,7 @@ public class CompleteTree<E>
 
     public CompleteTree()
     {
-        cursor = new BTNode<>(null, null, null);
+        cursor = new BTNode<E>(null, null, null);
         parent = cursor;
     }
 
@@ -26,12 +26,12 @@ public class CompleteTree<E>
         }
         else if (cursor.isLeaf())
         {
-            BTNode<E> newLeft = new BTNode<>(someData, null, null);
+            BTNode<E> newLeft = new BTNode<E>(someData, null, null);
             cursor.setLeft(newLeft);
         }
         else if (cursor.getLeft() != null && cursor.getRight() == null)
         {
-            BTNode<E> newRight = new BTNode<>(someData, null, null);
+            BTNode<E> newRight = new BTNode<E>(someData, null, null);
             cursor.setRight(newRight);
 
             //At root
@@ -43,7 +43,6 @@ public class CompleteTree<E>
             {
                 cursor = parent.getRight();
             }
-            else if(cursor.isFull() &&)
         }
     }
 
