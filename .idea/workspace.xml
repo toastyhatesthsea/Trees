@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="811cd798-5688-4d84-a3d4-9ef3fb4839c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Trees/StringBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/StringBinary.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="BinaryStringSearch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1cymdIxcJtYgOlCALI0PhTZcV7e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="StringBinaryTesters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.StringBinaryTesters" />
+      <module name="Trees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringBinaryTesters" />
+        <item itemvalue="Application.StringBinaryTesters" />
+        <item itemvalue="Application.StringBinaryTesters" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="811cd798-5688-4d84-a3d4-9ef3fb4839c5" name="Default Changelist" comment="" />
+      <created>1591509292936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591509292936</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First Initial Commit for String Binary Tree">
+      <created>1591512643638</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591512643639</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added try/catch to StringBinary to prevent null pointer">
+      <created>1591517386654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591517386654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Initial Commit for String Binary Tree" />
+    <MESSAGE value="Added try/catch to StringBinary to prevent null pointer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added try/catch to StringBinary to prevent null pointer" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591509336112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591509336112" />
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1591521524331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521524331" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1591521493563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1591521493563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1591521493563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1591521493563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1591521493563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1591521493563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1591521493563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1591521493563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591517395372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591517395372" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1591516472816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591516472816" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Trees/StringBinary.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="temp" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
