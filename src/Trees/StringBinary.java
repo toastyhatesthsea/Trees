@@ -11,7 +11,11 @@ public class StringBinary
 
     public void add(String someData)
     {
-        if (root.getData() == null)
+        if (root == null)
+        {
+
+        }
+        else if (root.getData() == null)
         {
             root.setData(someData);
         } else if (root.isLeaf())
@@ -35,18 +39,22 @@ public class StringBinary
                 } catch (Exception e)
                 {
                     BTNode<String> temp = new BTNode<>(someData, null, null);
-                    root.setLeft(temp);
+                    oldRoot.setLeft(temp);
                 }
             } else
             {
+                //TODO Not adding node correctly
+                //TODO Need to link nodes correctly on null nodes
                 try
                 {
                     root = root.getRight();
                 } catch (Exception e)
                 {
-                    BTNode<String> temp = new BTNode<>(someData, null, null);
-                    root.setRight(temp);
+
+                    System.err.println(e);
                 }
+                BTNode<String> temp = new BTNode<>(someData, null, null);
+                oldRoot.setRight(temp);
             }
             add(someData);
             root = oldRoot;
@@ -64,6 +72,8 @@ class StringBinaryTesters
         aTree.add("a");
         aTree.add("b");
         aTree.add("D");
+        aTree.add("e");
+
 
     }
 }
