@@ -2,7 +2,7 @@ package Trees;
 
 public class StringBinary
 {
-    public BTNode <String> root;
+    public BTNode<String> root;
 
     public StringBinary()
     {
@@ -13,34 +13,57 @@ public class StringBinary
     {
         if (root.getData() == null)
         {
-            BTNode<String> tempers = new BTNode<>(someData, null, null);
+            root.setData(someData);
         } else if (root.isLeaf())
         {
             BTNode<String> temp = new BTNode<>(someData, null, null);
             if (someData.compareToIgnoreCase(root.getData()) < 0)
             {
                 root.setLeft(temp);
-            }
-            else
+            } else
             {
                 root.setRight(temp);
             }
-        }
-        else
+        } else
         {
             BTNode<String> oldRoot = root;
             if (someData.compareToIgnoreCase(root.getData()) < 0)
             {
-                root = root.getLeft();
-            }
-            else
+                try
+                {
+                    root = root.getLeft();
+                } catch (Exception e)
+                {
+                    BTNode<String> temp = new BTNode<>(someData, null, null);
+                    root.setLeft(temp);
+                }
+            } else
             {
-                root = root.getRight();
+                try
+                {
+                    root = root.getRight();
+                } catch (Exception e)
+                {
+                    BTNode<String> temp = new BTNode<>(someData, null, null);
+                    root.setRight(temp);
+                }
             }
             add(someData);
             root = oldRoot;
         }
     }
+}
 
+class StringBinaryTesters
+{
+    public static void main(String[] asasas)
+    {
+        StringBinary aTree = new StringBinary();
 
+        aTree.add("c");
+        aTree.add("a");
+        aTree.add("b");
+        aTree.add("D");
+
+    }
 }
