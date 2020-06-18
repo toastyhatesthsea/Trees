@@ -55,6 +55,16 @@ public class StringBinary
         }
     }
 
+    public boolean deleteThing(String someDataToDelete)
+    {
+        if (someDataToDelete.compareToIgnoreCase(root.data) == 0)
+        {
+
+        }
+
+
+    }
+
     public void add(String someData)
     {
         if (root == null)
@@ -124,6 +134,8 @@ class StringBinaryTesters
         aTree.addTwo("b");
         aTree.addTwo("D");
         aTree.addTwo("z");
+
+        BTNode mostLeft = BTNode.getMostLeft(aTree.root);
 
     }
 }

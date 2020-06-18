@@ -1,6 +1,6 @@
 package Trees;
 
-public class BTNode <E>
+public class BTNode<E>
 {
 
     public E data;
@@ -52,5 +52,24 @@ public class BTNode <E>
     public boolean isFull()
     {
         return left != null && right != null;
+    }
+
+    public static BTNode getMostLeft(BTNode someNode)
+    {
+        if (someNode.isLeaf())
+        {
+            return someNode;
+        } else
+        {
+            if (someNode.getLeft() != null)
+            {
+                someNode = someNode.getLeft();
+                return getMostLeft(someNode);
+            } else
+            {
+                return someNode;
+            }
+
+        }
     }
 }
