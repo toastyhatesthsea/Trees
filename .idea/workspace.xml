@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="811cd798-5688-4d84-a3d4-9ef3fb4839c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Trees/StringBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/StringBinary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591517386654</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Still not correctly linking nodes, added ToDo">
+      <created>1591521525031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591521525031</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Still not correctly linking nodes, added ToDo">
+      <created>1591521566425</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591521566425</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,7 +123,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -117,53 +134,59 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Initial Commit for String Binary Tree" />
     <MESSAGE value="Added try/catch to StringBinary to prevent null pointer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added try/catch to StringBinary to prevent null pointer" />
+    <MESSAGE value="Still not correctly linking nodes, added ToDo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still not correctly linking nodes, added ToDo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591509336112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591509336112" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1591521524331">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1591521565438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521524331" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1591521493563">
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521565438" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1591837629578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1591521493563">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591837629578" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1591837629578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1591521493563">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591837629578" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1591837629578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1591521493563">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591837629578" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1591837629578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1591521493563">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591837629578" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1591837629765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1591521493563">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591837629765" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1591837629765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1591521493563">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591837629765" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1591837629765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1591521493563">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591837629765" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1591837629765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521493563" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591517395372">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591837629765" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591521575522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591517395372" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521575522" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1592443502012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.920/3200.0.1920.1040@0.0.1920.1040" timestamp="1592443502012" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591826580372" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1591516472816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -174,15 +197,10 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Trees/StringBinary.java</url>
-          <line>17</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="temp" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
