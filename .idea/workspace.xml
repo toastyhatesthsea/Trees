@@ -158,11 +158,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591509336112" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1592527656633">
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1592528964514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1592451836412" />
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.52.1280.920@0.0.1920.1040" timestamp="1592527656633" />
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.52.1280.920@0.0.1920.1040" timestamp="1592528964514" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1592528766026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -203,17 +203,22 @@
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1592449004450" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.52.1280.920@0.0.1920.1040" timestamp="1592528766295" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592443673326">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592528974057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.920/3200.0.1920.1040@0.0.1920.1040" timestamp="1592443673326" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591521575522" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.52.1280.920@0.0.1920.1040" timestamp="1592528974057" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1592514305247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.920/3200.0.1920.1040@0.0.1920.1040" timestamp="1592443502012" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.120.1280.920@0.0.1920.1040" timestamp="1591826580372" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.52.1280.920@0.0.1920.1040" timestamp="1592514305247" />
+    <state x="741" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1592529021391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/1920.52.1280.920@0.0.1920.1040" timestamp="1592529021391" />
     <state width="562" height="300" key="javadoc.popup.new" timestamp="1592517222950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
