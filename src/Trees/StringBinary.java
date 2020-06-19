@@ -66,6 +66,7 @@ public class StringBinary
         {
             if (cursor == root && someDataToDelete.compareToIgnoreCase(root.data) == 0)
             {
+                answer = true;
                 if (cursor.getRight() != null)
                 {
 
@@ -79,7 +80,8 @@ public class StringBinary
                 }
             } else if (someDataToDelete.compareTo(cursor.data) == 0)
             {
-                if (parent.getLeft() != null && parent.getLeft() == cursor)
+                answer = true;
+                if (parent.getLeft() != null && parent.getLeft() == cursor) //left side
                 {
                     if (cursor.getRight() != null)
                     {
@@ -88,20 +90,28 @@ public class StringBinary
                     } else if (cursor.getLeft() != null)
                     {
                         parent.setLeft(cursor.getLeft());
+                    } else
+                    {
+                        parent.setLeft(null);
                     }
-                }
-                else
+                } else //Right side
                 {
                     if (cursor.getRight() != null)
                     {
                         BTNode mostLeft = BTNode.getMostLeft(cursor.getRight());
-                        parent.setLeft(mostLeft);
+                        parent.setRight(mostLeft);
                     } else if (cursor.getLeft() != null)
                     {
-                        parent.setLeft(cursor.getLeft());
+                        parent.setRight(cursor.getLeft());
+                    } else
+                    {
+                        parent.setRight(null);
                     }
                 }
 
+            } else if (cursor.isLeaf())
+            {
+                return false;
             } else
             {
                 parent = cursor;
@@ -115,8 +125,7 @@ public class StringBinary
             }
 
         }
-
-
+        return true;
     }
 
     public void add(String someData)
@@ -189,7 +198,9 @@ class StringBinaryTesters
         aTree.addTwo("D");
         aTree.addTwo("z");
 
-        BTNode mostLeft = BTNode.getMostLeft(aTree.root);
+        //BTNode mostLeft = BTNode.getMostLeft(aTree.root);
+        aTree.deleteThing("z");
+        //TODO Check other fringe cases, such as Root delete and deletes with children and deletes with only one child
 
     }
 }
