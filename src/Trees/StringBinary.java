@@ -57,8 +57,62 @@ public class StringBinary
 
     public boolean deleteThing(String someDataToDelete)
     {
-        if (someDataToDelete.compareToIgnoreCase(root.data) == 0)
+        BTNode<String> parent = root;
+        BTNode<String> cursor = root;
+
+        boolean answer = false;
+
+        while (!answer)
         {
+            if (cursor == root && someDataToDelete.compareToIgnoreCase(root.data) == 0)
+            {
+                if (cursor.getRight() != null)
+                {
+
+                } else if (cursor.getLeft() != null)
+                {
+                    root = root.getLeft();
+                    answer = true;
+                } else
+                {
+                    root.setData(null);
+                }
+            } else if (someDataToDelete.compareTo(cursor.data) == 0)
+            {
+                if (parent.getLeft() != null && parent.getLeft() == cursor)
+                {
+                    if (cursor.getRight() != null)
+                    {
+                        BTNode mostLeft = BTNode.getMostLeft(cursor.getRight());
+                        parent.setLeft(mostLeft);
+                    } else if (cursor.getLeft() != null)
+                    {
+                        parent.setLeft(cursor.getLeft());
+                    }
+                }
+                else
+                {
+                    if (cursor.getRight() != null)
+                    {
+                        BTNode mostLeft = BTNode.getMostLeft(cursor.getRight());
+                        parent.setLeft(mostLeft);
+                    } else if (cursor.getLeft() != null)
+                    {
+                        parent.setLeft(cursor.getLeft());
+                    }
+                }
+
+            } else
+            {
+                parent = cursor;
+                if (someDataToDelete.compareTo(cursor.data) < 0)
+                {
+                    cursor = cursor.getLeft();
+                } else
+                {
+                    cursor = cursor.getRight();
+                }
+            }
 
         }
 
