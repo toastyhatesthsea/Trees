@@ -161,8 +161,6 @@ public class StringBinary
                 }
             } else
             {
-                //TODO Not adding node correctly
-                //TODO Need to link nodes correctly on null nodes
                 try
                 {
                     root = root.getRight();
@@ -185,6 +183,8 @@ class StringBinaryTesters
     public static void main(String[] asasas)
     {
         StringBinary aTree = new StringBinary();
+        StringBinary meow = aTree;
+        meow = null;
 
        /* aTree.add("c");
         aTree.add("a");
