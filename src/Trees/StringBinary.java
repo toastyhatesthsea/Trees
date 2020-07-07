@@ -1,5 +1,6 @@
 package Trees;
 
+import java.util.Iterator;
 import java.util.Stack;
 
 public class StringBinary
@@ -190,11 +191,22 @@ class InternalIterator<E>
     public void start()
     {
         stackOfData = new Stack<>();
+        BTNode<E> current = root;
+
+        addDataToStack(current);
     }
 
-    public void addDataToStack()
+    public void addDataToStack(BTNode<E> roots)
     {
-
+        if (roots.getLeft() != null)
+        {
+            addDataToStack(roots.getLeft());
+        }
+        stackOfData.add(roots.getData());
+        if (roots.getRight() != null)
+        {
+            addDataToStack(roots.getRight());
+        }
     }
 
     public InternalIterator(BTNode<E> root)
@@ -222,6 +234,13 @@ class StringBinaryTesters
         aTree.addTwo("b");
         aTree.addTwo("D");
         aTree.addTwo("z");
+
+        InternalIterator someIterator = new InternalIterator(aTree.root);
+
+        someIterator.start();
+
+
+
 
 
 
