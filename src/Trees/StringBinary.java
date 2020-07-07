@@ -1,5 +1,7 @@
 package Trees;
 
+import java.util.Stack;
+
 public class StringBinary
 {
     public BTNode<String> root;
@@ -176,6 +178,29 @@ public class StringBinary
             root = oldRoot;
         }
     }
+
+
+}
+
+class InternalIterator<E>
+{
+    Stack<E> stackOfData;
+    BTNode<E> root;
+
+    public void start()
+    {
+        stackOfData = new Stack<>();
+    }
+
+    public void addDataToStack()
+    {
+
+    }
+
+    public InternalIterator(BTNode<E> root)
+    {
+        this.root = root;
+    }
 }
 
 class StringBinaryTesters
@@ -197,6 +222,8 @@ class StringBinaryTesters
         aTree.addTwo("b");
         aTree.addTwo("D");
         aTree.addTwo("z");
+
+
 
         //BTNode mostLeft = BTNode.getMostLeft(aTree.root);
         aTree.deleteThing("z");
